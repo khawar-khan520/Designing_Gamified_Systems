@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 511627962}
   - component: {fileID: 511627961}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Unlock Clue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1074,7 +1074,7 @@ GameObject:
   - component: {fileID: 629622504}
   - component: {fileID: 629622503}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Unlock Chapter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1675,7 +1675,7 @@ GameObject:
   - component: {fileID: 1602772135}
   - component: {fileID: 1602772134}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Reset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2082,7 +2082,7 @@ GameObject:
   - component: {fileID: 1876824435}
   - component: {fileID: 1876824434}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Advance Day
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2219,7 +2219,7 @@ GameObject:
   - component: {fileID: 1916713775}
   - component: {fileID: 1916713774}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Add Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
