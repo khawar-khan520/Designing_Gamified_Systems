@@ -29,7 +29,7 @@ public class NavigationManager : MonoBehaviour
     }
 
     public void ShowStartScreen()      => ShowScreen(startScreen);
-    public void ShowMainMenu()         => ShowScreen(mainMenuScreen);
+    public void ShowMainMenu()         { Debug.Log("[NAV] ShowMainMenu called"); ShowScreen(mainMenuScreen); }
     public void ShowBodyMap()          => ShowScreen(bodyMapScreen);
     public void ShowInvestigation()    => ShowScreen(investigationScreen);
     public void ShowCaseFile()         => ShowScreen(caseFileScreen);
@@ -41,13 +41,14 @@ public class NavigationManager : MonoBehaviour
 
     void ShowScreen(GameObject screen)
     {
-        if (startScreen)       startScreen.SetActive(false);
-        if (mainMenuScreen)    mainMenuScreen.SetActive(false);
-        if (bodyMapScreen)     bodyMapScreen.SetActive(false);
+        if (startScreen)         startScreen.SetActive(false);
+        if (mainMenuScreen)      mainMenuScreen.SetActive(false);
+        if (bodyMapScreen)       bodyMapScreen.SetActive(false);
         if (investigationScreen) investigationScreen.SetActive(false);
-        if (caseFileScreen)    caseFileScreen.SetActive(false);
-        if (avatarScreen)      avatarScreen.SetActive(false);
-        if (settingsScreen)    settingsScreen.SetActive(false);
+        if (caseFileScreen)      caseFileScreen.SetActive(false);
+        if (avatarScreen)        avatarScreen.SetActive(false);
+        if (settingsScreen)      settingsScreen.SetActive(false);
+        if (rewardPopup)         rewardPopup.SetActive(false);
 
         screen.SetActive(true);
     }
