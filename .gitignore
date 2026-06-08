@@ -1,4 +1,8 @@
 # Unity generated
+*.csproj
+*.slnx
+*.sln
+.vscode/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
